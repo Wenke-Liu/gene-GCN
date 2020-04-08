@@ -18,9 +18,9 @@ A: A NxN symmetrical adjacent matrix without self-connection. Aij=1 indicates th
 
 LOG_DIR = './log'
 MODEL_DIR = './model'
-X_DIR = '/media/lwk/data/pancancer/data/brca_retro_pr_data_gcn.txt'
-Y_DIR = '/media/lwk/data/pancancer/data/brca_retro_pr_y_gcn.txt'
-A_DIR = '/media/lwk/data/pancancer/data/brca_retro_pr_adj_gcn.txt'
+X_DIR = '../data/brca_retro_pr_data_gcn.txt'
+Y_DIR = '../data/brca_retro_pr_y_gcn.txt'
+A_DIR = '../data/brca_retro_pr_adj_gcn.txt'
 
 
 def main(to_load=None):
